@@ -1,13 +1,8 @@
-# License Plate Recognition (LPR) of Persian Cars 
+# Automatic Speech Recognition
  
  
 ## Introduction
-
-License plate recognition is the ability of the computer-based system to automatically get the image of cars, locate the position of the license plate in it and then convert the optical data of the plate into digital information. This technology can be used in several vehicle management applications such as ticketless parking, stolen vehicle detection, smart billing, and many more \[[1](https://survisiongroup.com/post-what-is-license-plate-recognition)\].
-
-Although there are many open-source projects which discuss how to implement such a system for English character license plates, few resources for Persian license plates are available. In addition, thanks to the advance of deep learning models, these days we can leverage complex and ease-of-use models such as YOLO version 7 with higher accuracy for object detection tasks.
-
-In this project, the aim is to implement an end-to-end system that can detect Persian license plates of cars and recognize the characters and numbers inside it in an image. The project can be mainly split into two stages. First, the detection of license plates of cars using YOLO version 7, one of the latest object detection models. Second, segmentation and recognition of Persian license plate characters. For the second stage, two different methods are used, one using image processing techniques and another one using YOLO version 7, this time for the recognition of characters.
+, and many more \[[1](https://survisiongroup.com/post-what-is-license-plate-recognition)\].
 
 
 <p align="center">
